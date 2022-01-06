@@ -4,3 +4,9 @@
 --gamboge:#ECA442
 --delta:#A5A79A
 }
+body{
+background:var(--delta) ;
+color: black;
+
+
+}
