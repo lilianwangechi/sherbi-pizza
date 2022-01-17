@@ -11,12 +11,7 @@
 <link href="/assets/css/styles.css" rel="stylesheet" type="text/css" media="all">
 
 <body>
-  < class="container">
-    <!-- <body style="text-align: center;
-background-image: url(/assets/images/img9.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;"> -->
+  <div class="container">
     <div class="text-center">
 
       <!-- start of header section welcome message image navigation bar -->
@@ -38,7 +33,7 @@ background-size: cover;"> -->
       </div>
       <!-- end of navigation bar section -->
 
-      <!-- home section -->
+      <!-- welcome Section-->
       <div class="card">
         <!-- add pictures description -->
         <div class="card-header p-0">
@@ -48,7 +43,6 @@ background-size: cover;"> -->
 
           <div class="card-title">
             <h6>HOME</h6>
-
           </div>
           <div class="card-text">
             <p>This is the home of hand-crafted award winning pizza.The pizza recipes passed down from our great
@@ -56,27 +50,18 @@ background-size: cover;"> -->
               pick your pizza size,toppings and crust.Make Your order now</p>
           </div>
           <div class="card-footer">
-            <!-- <p>Go Ahead and Make Your Order</p>
+            <p>Go Ahead and Make Your Order</p>
           </div>
-          <p>Pick Your Pizza Size</p>
-          <select id="gender">
-            
-            <option value="male"> Male </option>
-            <option value="female"> Female</option>
-            </select> -->
-          </div>
-
         </div>
+      </div>
 
+      <br>
+      <!-- end of welcome section -->
 
-      </div><br>
+      <!-- make your order section -->
 
-      <!-- end of home section -->
-
-      <!-- menu -->
-      <div class="text-center">
-        <div class="card">
-
+      <div class="card">
+        <div class="text-center">
           <div class="card-header p-0">
             <h5>MAKE YOUR ORDER!!</h5>
           </div>
@@ -89,137 +74,163 @@ background-size: cover;"> -->
             <div class="card-text">
               <label for="pizza-size">Pick your pizza size</label>
               <select id="pizza-size">
-
-                <option value="small"> Small Pizza: 8-10 inch pizza with 6 slices.</option>
-                <option value="Medium"> Medium Pizza: 12-14 inch pizza with 8 slices.</option>
-                <option value="Large"> Large Pizza: 14-16 inch pizza with 8 slices. </option>
-                <option value="Extra-Large"> Extra-large Pizza: 16-18 inch pizza with 8-10 slices </option>
-              </select>
+                <div class="price1">
+                  <option value="small"> Small Pizza: 8-10 inch pizza with 6 slices.</option>
+                  <option value="Medium"> Medium Pizza: 12-14 inch pizza with 8 slices.</option>
+                  <option value="Extra cheese"> Extra cheese</option>
+                  <option value="Extra-Extra cheese"> Extra-Extra cheese Pizza: 16-18 inch pizza with 8-10 slices
+                  </option>
+                </div>
+              </select><br>
 
               <label for="pizza-crust">Pick your pizza crust</label>
               <select id="pizza-crust">
-                <option value="Stuffed Crust"> Stuffed Crust</option>
-                <option value="Cracker Crust"> Cracker Crust</option>
-                <option value="Flat Bread Crust"> Flat Bread Crust</option>
-                <option value="Thin Crust.">Thin Crust</option>
-                <option value="Thick Crust Pizza.">Thick Crust Pizza.</option>
-              </select>
+                <div class="price2">
+                  <option value="Stuffed Crust"> Stuffed Crust</option>
+                  <option value="Cracker Crust"> Cracker Crust</option>
+                  <option value="Flat Bread Crust"> Flat Bread Crust</option>
+                  <option value="Thin Crust.">Thin Crust</option>
+                  <option value="Thick Crust Pizza.">Thick Crust Pizza.</option>
+                </div>
+              </select><br>
 
-             <br> <label for="pizza-toppings">Pick your pizza toppings</label>
+              <label for="pizza-toppings">Pick your pizza toppings</label>
               <select id="pizza-toppings">
-                <option value="small"> Small Pizza: 8-10 inch pizza with 6 slices.</option>
-                <option value="Medium"> Medium Pizza: 12-14 inch pizza with 8 slices.</option>
-                <option value="Large"> Large Pizza: 14-16 inch pizza with 8 slices. </option>
-                <option value="Extra-Large"> Extra-large Pizza: 16-18 inch pizza with 8-10 slices </option>
-              </select>
+                <div class="price3">
+                  <option value="Pepperoni"> Pepperoni</option>
+                  <option value="Mushroom"> Mushroom</option>
+                  <option value="Extra cheese"> Extra cheese</option>
+                  <option value="Onion">Onion</option>
+                  <option value="Tomato"> Tomato</option>
+                  <option value="Fresh garlic"> Fresh garlic</option>
+                  <option value="Fresh basil"> Fresh basil</option>
+                </div>
+              </select><br>
+
+              <div class="btn-group">
+                <button type="button" class="btn btn-success">Submit</button>
+              </div>
             </div>
           </div>
 
         </div>
-<br>
-          <div class="card">
-            <div class="card-header">
-              <h5>order summary</h5>
-              <div class="card-body">
-                <div class="card-title">
-                  <h5>Here Is Your Order</h5>
-                  <form>
-                    <class id ="price>">
-                     <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text">Ksh</span>
-                      </div>
-                      <input type="text" class="form-control" aria-label="Amount (to the nearest shillings)">
-                      <div class="input-group-append">
-                        <span class="input-group-text">.00</span>
-                      </div>
-                    </class>
-                  </div>
-                  </form>
-                </div>
-                <div class="card-text">
-
-
-                </div>
-                <div class="card-footer">
-
-
-                </div>
-
-              </div>
-
-            </div>  
-        <div class="card-footer">
-          <p>Happy To Serve You</p>
-         </div>
-
-
-      <!-- </div>
-
-    </div>
-
-
-    </div>
-    </div><br> -->
-
-    <!-- end of menu section -->
-
-    <!-- order summary-->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-img-top" </div> <div class="card-body">
-          <div class="card-title">
-
+        <br>
+        <!-- order summary section -->
+        <div class="card">
+          <div class="card-img-top">
+            <img src="/assets/images/img1.jpg">
           </div>
-          <div class="card-text">
-
-
+          <div class="card-header">
+            <h5>order summary</h5>
+          </div>
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Here Is Your Order</h5>
+              <form>
+                <class id="price>">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Ksh</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest shillings)">
+                    <div class="input-group-append">
+                      <span class="input-group-text">.00</span>
+                    </div>
+                </class>
+            </div>
+            </form>
           </div>
           <div class="card-footer">
+            <p>Happy To Serve You</p>
+          </div>
+        </div>
+        <br>
+        <!--  -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-img-top">
+
+            </div>
+            <div class="card-body">
 
 
+              <div class="card-title">
+
+              </div>
+              <div class="card-text">
+
+
+              </div>
+              <div class="card-footer">
+
+              </div>
+            </div>
           </div>
 
         </div>
-
       </div>
-    </div>
 
 
     </div>
     <!-- get your total order and option to make more orders and also checkout -->
 
-    </div><br>
-    <!-- end of order summary -->
+  </div><br>
 
-    <!-- Delivery section -->
-    <div class="card">
+  <!-- Delivery section -->
+  <div class="card">
+    <div class="text-center">
       <div class="card-header">
         <div class="card-img-top">
 
         </div>
         <div class="card-body">
           <div class="card-title">
-
+            <p>Lets get your order home</p>
           </div>
           <div class="card-text">
+            <p>We deliver pizza to your home at a small fee.Let us know your location as well as your contact below.</p>
+            <div class="form-group bmd-form-group">
+              <label class="bmd-label-static">Fist Name</label>
+              <input type="text" class="form-control" placeholder="Your First name here">
+              <label class="bmd-label-static">Second Name</label>
+              <input type="text" class="form-control" placeholder="Your second name here">
+              <label class="bmd-label-static">Fist Name</label>
+              <input type="text" class="form-control" placeholder="Your First name here">
 
-
+              <label for="Location">Pick Your Location</label><br>
+              <select>
+                <option value="Kaka Area"> Kaka Area</option>
+                <option value="Keke Area"> Keke Area</option>
+                <option value="Kiki Area"> Kiki Area</option>
+                <option value="Koko Area">Koko Area</option>
+                <option value="Kuku Area"> Kuku Area</option>
+              </select><br><br>
+              <div class="btn-group">
+                <button type="button" class="btn btn-success">Submit</button>
+              </div>
+            </div>
           </div>
-          <div class="card-footer">
-
-
-          </div>
-
-
         </div>
-
-
+        <div class="card-footer">
+          <p>We Look Forward To your Next Order</p>
+        </div>
       </div>
-      <!-- end of delivery section -->
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- end of delivery section -->
+</body>
+<script src="/assets/js/jquery.js"></script>
+
+<script src="/assets/js/scripts.js"></script>
+
+</html>
 
 
-      <!-- <div class="form-group">
+
+
+<!-- <div class="form-group">
               <label for="crust">Pick Your Crust</label>
               <div class="dropdown">
                 <button class="dropbtn">Pizza Crust</button>
@@ -247,33 +258,4 @@ background-size: cover;"> -->
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button> -->
-      </form> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-</body>
-<script src="/assets/js/jquery.js"></script>
-
-<script src="/assets/js/scripts.js"></script>
-
-</html>
+<!-- </form> --> -->
