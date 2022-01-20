@@ -16,3 +16,6 @@ Function Orderpizza(size,crust,toppings,total){
 }
 
 // Add your cart
+$(document).ready(function(){
+  $('')
+})
